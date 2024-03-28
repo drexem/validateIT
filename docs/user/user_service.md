@@ -245,7 +245,7 @@ without the language parameter.
 <a id="TypicalUsage"></a>
 
 So typically a user want to validate a `tabular data file` with associated `metadata file`.
-The recommended approach is to start [Metadata validation](../general/index.md#section-metadataValidation).
+The recommended approach is to start [Metadata validation](../general/index.md#section-metadataValidation). If you want to use [Tabular validation](../general/index.md#section-tabularValidation) or [Overriding validation](../general/index.md#section-overridingValidation) check out how you can [adjust](#validate) the body of the validate request.
 
 So we will send a `HTTP POST` request to the endpoint [api/Validate/](#validate) with this body:
 ```json
