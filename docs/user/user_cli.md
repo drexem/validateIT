@@ -1,4 +1,4 @@
-## CLI Application - user documentation
+# CLI Application - user documentation
 
 We can see all the available options for the command line application using the option `--help`
 and we will see output similar to this:
@@ -27,10 +27,10 @@ Copyright (C) 2024 ValidateCLI
 ```
 Now we will take a closer look at different types of validation and how you can start them. Also we will look at how to use different CLI parameters and arguments.
 
-So as it is described in [general information](general_info.md) there are three types of validation and we will show you how to run all of them!
+So as it is described in [general information](../general/index.md) there are three types of validation and we will show you how to run all of them!
 
-### Tabular validation
-Look at the definition of [tabular validation](general_info.md#section-tabularValidation).
+## Tabular validation
+Look at the definition of [tabular validation](../general/general_info.md#section-tabularValidation).
 
 You can run remote tabular validation by invoking the validator with arguments:
 ```bash
@@ -46,8 +46,8 @@ Alternatively similarly you can run local tabular validation by invoking:
 
 Replace the `/home/user/Desktop/my.csv` with path to your desired local `tabular data file`
 
-### Metadata validation
-Look at the definition of [metadata validation](general_info.md#section-metadataValidation).
+## Metadata validation
+Look at the definition of [metadata validation](../general/general_info.md#section-metadataValidation).
 
 You can run remote metadata validation by invoking the validator with arguments:
 ```bash
@@ -63,8 +63,8 @@ Alternatively similarly you can run local metadata validation by invoking:
 
 Replace the `/home/user/Desktop/my_schema.json` with path to your desired local `metadata file`
 
-### Overriding validation
-Look at the definition of [overriding validation](general_info.md#section-overridingValidation).
+## Overriding validation
+Look at the definition of [overriding validation](../general/general_info.md#section-overridingValidation).
 
 
 You can run remote overriding validation by invoking the validator with arguments:
@@ -86,9 +86,9 @@ Replace the `/home/user/Desktop/my_schema.json` with path to your desired local 
 
 Replace the `/home/user/Desktop/my_table.csv` with path to your desired local `tabular data file`.
 
-### Other arguments
+## Other arguments
 
-#### --language
+### --language
 
 You can change the default language that is `English` to a `Slovak` language using parameter:
 ```bash
@@ -132,7 +132,7 @@ Výsledky pre tabuľku: https://w3c.github.io/csvw/tests/test042.csv
 Výsledok validácie: Valid
 ```
 
-#### --csvPath
+### --csvPath
 You can specify that you want to create a validation report to a file in `csv` format using the parameter `--csvPath`
 
 For example you can invoke:
@@ -145,7 +145,7 @@ and afterwards you will find the validation result in format `csv` located at pa
 Change the `/home/user/Desktop/result.csv` accordingly to satisfy your particular needs.
 
 
-#### --rdfPath
+### --rdfPath
 You can specify that you want to create a validation report to a file in `rdf` format using the parameter `--rdfPath`
 
 For example you can invoke:
@@ -157,7 +157,7 @@ and afterwards you will find the validation result in format `rdf` located at pa
 
 Change the `/home/user/Desktop/result.ttl` accordingly to satisfy your particular needs.
 
-#### -v / --verbose
+### -v / --verbose
 
 You can turn on more detailed validation report by invoking parameter `--verbose` or its short version `-v`.
 
