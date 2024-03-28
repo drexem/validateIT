@@ -1,5 +1,4 @@
 ## CLI Application - user documentation
-<a id="section-CLI"></a>
 
 We can see all the available options for the command line application using the option `--help`
 and we will see output similar to this:
