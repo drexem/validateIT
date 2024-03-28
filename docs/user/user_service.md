@@ -243,3 +243,72 @@ without the language parameter.
 
 ## Typical usage scenarios
 <a id="TypicalUsage"></a>
+
+So typically a user want to validate a `tabular data file` with associated `metadata file`.
+The recommended approach is to start [Metadata validation](../general/index.md#section-metadataValidation).
+
+So we will send a `HTTP POST` request to the endpoint [api/Validate/](#validate) with this body:
+```json
+{
+    "metadataURL": "https://w3c.github.io/csvw/tests/test041-metadata.json"
+}
+```
+
+In response we will get valid response:
+```json
+{
+    "resultID": 15
+}
+```
+
+Then we will proceed to polling the validation result at the endpoint [api/GetResult/17](#getResult).
+
+First we will get a response indicating that the validation is in progress indicated by the property `ProgressStatus` set to `VALIDATING`:
+```json
+{
+    "ResultID": 15,
+    "ValidationStatus": "UNDEFINED",
+    "ProgressStatus": "VALIDATING",
+    "CreatedAt": "2024-03-28T20:25:55.5224548",
+    "TableGroupResult": {
+        "TablesProcessed": 0,
+        "GeneralErrors": [],
+        "GeneralWarnings": [],
+        "TableResults": []
+    }
+}
+```
+
+We will wait a few seconds and try to poll the request again [api/GetResult/17](#getResult).
+Now we will get the final result:
+```json
+{
+    "ResultID": 20,
+    "ValidationStatus": "WARNING",
+    "ProgressStatus": "FINISHED",
+    "CreatedAt": "2024-03-28T20:27:00.795894",
+    "TableGroupResult": {
+        "TablesProcessed": 1,
+        "MetadataIRI": "https://w3c.github.io/csvw/tests/test041-metadata.json",
+        "GeneralErrors": [],
+        "GeneralWarnings": [
+            {
+                "Message": "Value of lang property must be valid language tag!\r\nYour value: \"lang\": \"notavalidlanguagetag\"\r\nMore about language tags at:\r\nhttps://tools.ietf.org/html/bcp47",
+                "MessageSK": "Hodnota lang property musí byť validný BCP language tag!\r\nVaša hodnota:  \"lang\": \"notavalidlanguagetag\"\r\nViac o language tagoch na:\r\nhttps://tools.ietf.org/html/bcp47"
+            }
+        ],
+        "TableResults": [
+            {
+                "TableIRI": "https://w3c.github.io/csvw/tests/test041.csv",
+                "RowsProcessed": 1,
+                "ColumnsProcessed": 10,
+                "CellsProcessed": 10,
+                "NumberOfErrors": 0,
+                "NumberOfWarnings": 0,
+                "Errors": [],
+                "Warnings": []
+            }
+        ]
+    }
+}
+```
