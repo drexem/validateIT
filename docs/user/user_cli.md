@@ -88,3 +88,122 @@ Replace the `/home/user/Desktop/my_schema.json` with path to your desired local 
 Replace the `/home/user/Desktop/my_table.csv` with path to your desired local `tabular data file`.
 
 ### Other arguments
+
+#### --language
+
+You can change the default language that is `English` to a `Slovak` language using parameter:
+```bash
+--language sk-SK
+```
+
+For example if you run:
+```bash
+--metadataIRI https://w3c.github.io/csvw/tests/test042-metadata.json
+```
+
+You get result:
+```bash
+General results:
+Validation status: Warning
+
+The textDirection property must have a single string value that is one of "ltr", "rtl", "auto" or "inherit" (the default).
+Your value: forwards
+More about textDirecton property at:
+https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#inherited-properties
+
+Results for table: https://w3c.github.io/csvw/tests/test042.csv
+Validation status: Valid
+```
+
+However if you switch to a slovak language:
+```bash
+--metadataIRI https://w3c.github.io/csvw/tests/test042-metadata.json --language sk-SK
+```
+You get translated result:
+```bash
+Všeobecné výsledky:
+Výsledok validácie: Varovanie
+Všeobecné varovania:
+textDirection vlasnosť musí máť stringovú hodnotu jednu z:  "ltr", "rtl", "auto" alebo "inherit" (default).
+Vaša hodnota: forwards
+Viac o textDirection vlastnosti na:
+https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#inherited-properties
+
+Výsledky pre tabuľku: https://w3c.github.io/csvw/tests/test042.csv
+Výsledok validácie: Valid
+```
+
+#### --csvPath
+You can specify that you want to create a validation report to a file in `csv` format using the parameter `--csvPath`
+
+For example you can invoke:
+```bash
+--metadataIRI https://w3c.github.io/csvw/tests/test042-metadata.json --csvPath /home/user/Desktop/result.csv
+```
+
+and afterwards you will find the validation result in format `csv` located at path `/home/user/Desktop/result.csv`
+
+Change the `/home/user/Desktop/result.csv` accordingly to satisfy your particular needs.
+
+
+#### --rdfPath
+You can specify that you want to create a validation report to a file in `rdf` format using the parameter `--rdfPath`
+
+For example you can invoke:
+```bash
+--metadataIRI https://w3c.github.io/csvw/tests/test042-metadata.json --rdfPath /home/user/Desktop/result.ttl
+```
+
+and afterwards you will find the validation result in format `rdf` located at path `/home/user/Desktop/result.ttl`
+
+Change the `/home/user/Desktop/result.ttl` accordingly to satisfy your particular needs.
+
+#### -v / --verbose
+
+You can turn on more detailed validation report by invoking parameter `--verbose` or its short version `-v`.
+
+For example you can run non-verbose version:
+```bash
+--metadataIRI https://w3c.github.io/csvw/tests/test042-metadata.json 
+```
+and get result:
+```bash
+General results:
+Validation status: Warning
+
+The textDirection property must have a single string value that is one of "ltr", "rtl", "auto" or "inherit" (the default).
+Your value: forwards
+More about textDirecton property at:
+https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#inherited-properties
+
+Results for table: https://w3c.github.io/csvw/tests/test042.csv
+Validation status: Valid
+```
+
+Or you can run verbose version:
+```bash
+--metadataIRI https://w3c.github.io/csvw/tests/test042-metadata.json --verbose
+```
+
+and get result:
+```bash
+General results:
+Validation status: Warning
+Statistics:
+Validated tables: 1
+Used metadata: https://w3c.github.io/csvw/tests/test042-metadata.json
+
+The textDirection property must have a single string value that is one of "ltr", "rtl", "auto" or "inherit" (the default).
+Your value: forwards
+More about textDirecton property at:
+https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#inherited-properties
+
+Results for table: https://w3c.github.io/csvw/tests/test042.csv
+Validation status: Valid
+Statistics:
+Validated rows: 1
+Validated columns: 10
+Validated cells: 10
+```
+
+This verbose version contain additional information like number of validated rows, columns and cells...
