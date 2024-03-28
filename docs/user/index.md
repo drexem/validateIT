@@ -5,9 +5,3 @@ use our products:
 - **[CLI Application](user_cli.md)**
 - **[Web Service](user_service.md)**
 - **[Web Application](user_web_app.md)**
-
-## Web Service
-<a id="section-WebService"></a>
-
-## Web Application 
-<a id="section-WebApp"></a>
