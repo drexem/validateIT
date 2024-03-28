@@ -4,11 +4,63 @@ Currently the web service contains two endpoints:
 - **[api/Validate](#validate)** - where the particular listening controller expects a post method with particular body.
 - **[api/GetResult/{resultID}](#getResult)** - where the particular listening controller expects a get method with a correct resultID parameter
 
+Also check out some [typical usage scenarios](#TypicalUsage).
+
 ## api/Validate
 <a id="validate"></a>
 
-At this endpoint the web service receives `POST` requests with particular bodies.
+At this endpoint the web service receives `POST` requests with particular bodies. Example of such body:
+```json
+{
+    "metadataURL": "https://w3c.github.io/csvw/tests/test279-metadata.json"
+}
+```
 
+these bodies can contain 2 properties:
+- **metadataURL** - contains URL of metadata file we want to use for validation.
+- **tabularURL** - contains array of URLs of tabular files we want to validate.
+
+If you want to start [Tabular validation](../general/index.md#section-tabularValidation) provide just one table URL in the property `tabularURL`. For example:
+```json
+{
+    "tabularURL": "https://w3c.github.io/csvw/tests/test042.csv"
+}
+```
+
+If you want to start [Metadata validation](../general/index.md#section-metadataValidation) provide just property `metadataURL`.
+For example:
+```json
+{
+    "metadataURL": "https://w3c.github.io/csvw/tests/test279-metadata.json"
+}
+```
+
+If you want to start [Overriding validation](../general/index.md#section-overridingValidation) provide both properties accordingly. For example:
+```json
+{
+    "metadataURL": "https://w3c.github.io/csvw/tests/test077-metadata.json",
+    "tabularURL": "https://w3c.github.io/csvw/tests/tree-ops.csv"
+}
+```
+
+### Response
+As a response you will either get valid response containing the `resultID` you can query at [GetResult endpoint](#getResult) with HTTP response code `200`:
+```json
+{
+    "resultID": 15
+}
+```
+
+Or you will get invalid response indicating something is wrong with the body with the HTTP response code `400`:
+```json
+{
+    "isBodyValid": false,
+    "body": {
+        "metadataUrl": "invalid metadataURL",
+        "tabularUrl": null,
+    }
+}
+```
 ## api/GetResult/{resultID}
 <a id="getResult"></a>
 
@@ -166,4 +218,28 @@ Example of `Error object`:
 }
 ```
 
-Example of `Warning Object`
+Example of `Warning object`:
+```json
+{
+    "Message": "The textDirection property must have a single string value that is one of \"ltr\", \"rtl\", \"auto\" or \"inherit\" (the default).\r\nYour value: forwards\r\nMore about textDirecton property at:\r\nhttps://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#inherited-properties",
+    "MessageSK": "textDirection vlasnosť musí máť stringovú hodnotu jednu z:  \"ltr\", \"rtl\", \"auto\" alebo \"inherit\" (default).\r\nVaša hodnota: forwards\r\nViac o textDirection vlastnosti na:\r\nhttps://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#inherited-properties"
+}
+```
+
+### Language
+
+If you want to receive the error messages in only one language you can do so by using parameter `?language`.
+
+If you want to receive only `SK` messages please use:
+`api/GetResult/{resultID}?language=sk-SK`
+
+If you want to receive only `GB` messages please use:
+`api/GetResult/{resultID}?language=en-GB`
+
+If you want to receive both messages (also default case) just use:
+`api/GetResult/{resultID}`
+without the language parameter.
+
+
+## Typical usage scenarios
+<a id="TypicalUsage"></a>
