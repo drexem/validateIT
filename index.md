@@ -5,7 +5,7 @@ Welcome to Validate IT - your solution for validating CSV tabular data and metad
 ## Documentation
 On this website you will find the documentation for this project!
 Available documentation:
-- **[User documentation](docs/user_documentation.md.md)** - 
+- **[User documentation](docs/user_documentation.md)** - 
 - **[Developer documentation](docs/developer_documentation.md)** - 
 - **[Administration documentation](docs/administration_documenation.md)** -
 
