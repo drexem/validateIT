@@ -312,3 +312,5 @@ Now we will get the final result:
     }
 }
 ```
+
+After a few days we remembered we have a nice validation report saved and we tried to poll it again [api/GetResult/17](#getResult). However this time we get [invalid response](#invalidResponse) because the validation result is no longer in the database. So we have no other choice but to [repeat the validation](#TypicalUsage)
