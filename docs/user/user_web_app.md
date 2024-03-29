@@ -6,7 +6,7 @@ Before starting make sure you have read [general information](../general/index.m
 We will use some local files to which we will always provide links for you to download them and try it out yourself. Generally the local example files are all situated [here](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/Docs/User/WebApp/Examples?ref_type=heads) so if you have cloned [the repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator) you have them ready.
 
 ## General information
-Here will be really, really basic information about how to navigate around the webpage, which is not really interesting to people that now their way around the internet. You can [skip](#typical-usage-scenarios) to the [typical usage scenarios](#typical-usage-scenarios).
+Here will be really, really basic information about how to navigate around the webpage, which is not really interesting to people that know their way around the internet. You can [skip](#typical-usage-scenarios) to the [typical usage scenarios](#typical-usage-scenarios).
 ### Main navigation 
 The main navigation bar is located at the top left corner of our web page:
 ![main navigation](img/main_navigation.png)
