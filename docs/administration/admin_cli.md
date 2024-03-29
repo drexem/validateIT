@@ -6,6 +6,8 @@ Here you will find the information needed for running the CLI version of Validat
 - **[Docker](#docker)**
 - **[.NET Build](#net-build)**
 
+Don't forget to check out the [user documentation](../user/user_cli.md) of CLI App!
+
 ## Docker
 To use this app you need to have docker installed on your local machine and have the docker daemon running!
 
