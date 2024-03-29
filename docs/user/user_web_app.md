@@ -67,114 +67,13 @@ It contains the following properties:
 
 Here we will walk through some typical use cases. As mentioned [before](#web-app---user-documentation) we will work with some example files located [here](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/Attachments/Web_Service?ref_type=heads) so you can download them and work with us step by step!
 
-### Validation of local CSV file (PP1.)
-Here we will work with the [PP1/example.csv](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP1/example.csv?ref_type=heads)
+Also in some of use cases we use [integration tests](https://w3c.github.io/csvw/tests/#manifest-validation) files.
 
-First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](#main-navigation).
-2. Click on the `Tabular Data` link in the [Second navigation](#validate-screens-second-navigation).
-3. Click on the `Local Files` link in the [Third navigation](#validate-screens-third-navigation).
+Summary of use cases:
+- **[Validation of local CSV file (PP1.)](user_web_app_pp1.md)**
+- **[Validation of local metadata file (PP2. + PP5.)](user_web_app_pp2.md)**
+- **[Validation of remote CSV file (PP3.)](user_web_app_pp3md)**
+- **[Validation of remote metadata file (PP4.)](user_web_app_pp4.md)**
+- **[Validation of remote table group with remote metadata file (PP6.)](user_web_app_pp6.md)**
 
-Now click on the `Drag&Drop` field:
-![drag and drop click tabular](img/drag_and_drop_click_tabular.png)
-File select window will open and we select our file and click open:
-![pp1 select file](img/pp1_file_select.png)
-Afterwards your page should look like this:
-![selected tabular file local](img/selected_tabular_file_local.png)
-Now start the validation by clicking the `Start Validation` button:
-![start validation](img/start_validation_button_local_tabular.png)
-After the validation is done, you will be relocated to a result page:
-![validation result page](img/validation_result_page.png)
-We can see that there has been one Columns count mismatch error:
-![columns count mismatch error detail](img/columns_count_mismatch_error_detail.png)
-And that it belongs to the table `example.csv` as it contains different number of columns in some row.
-
-### Validation of local metadata file (PP2. + PP5.)
-
-As the validation of just the local metadata file itself does not make much sense because metadata file must contain [Table descriptor](https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#tables) of at least one table, we need to upload local tabular data file with it.
-
-We will be working with the files in directory [PP2/](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP2/)
-
-First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](#main-navigation).
-2. Click on the `Both (overriding)` link in the [Second navigation](#validate-screens-second-navigation).
-3. Click on the `Local Files` link in the [Third navigation](#validate-screens-third-navigation).
-
-Now click on the top `Drag&Drop` field:
-![pp2 top drag and drop](img/pp2_top_drag_and_drop.png)
-Select the metadata file called `countries.json`:
-![pp2 metadata select](img/pp2_metadata_select.png)
-Click on the bottom `Drag&Drop` field:
-![pp2 bottom drag drop](img/pp2_bottom_drag_drop.png)
-Select the files `countries.csv` and `country_slice.csv`:
-![pp2 tabular select](img/pp2_tabular_select.png)
-Make sure that the `countries.csv` is first, if you have wrong order you need to sort them like this:
-![pp2 wrong order](img/pp2_wrong_order.png)
-Start the validation by clicking `Start Validation` button:
-![pp2 start validation](img/pp2_start_validation.png)
-Afterwards you will see the result page:
-![pp2 result page](img/pp2_result_page.png)
-We can see that the files are correct and none validation error has occurred!
-
-### Validation of remote CSV file (PP3.)
-
-Now we will use file located at [PP3/example.csv](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv) so we wil work with the link `https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv`.
-
-First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](#main-navigation).
-2. Click on the `Tabular Data` link in the [Second navigation](#validate-screens-second-navigation).
-3. Click on the `Remote Files` link in the [Third navigation](#validate-screens-third-navigation).
-
-Insert the `https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv` into the `URL input` field:
-![pp3 URL input](img/pp3_url_input.png)
-Start the validation by clicking on the `Start Validation` button:
-![pp3 start validation](img/pp3_start_validation.png)
-Afterwards you will see this result page:
-![pp3 result page](img/pp3_result_page.png)
-We can see that the error `Char outside of quotes` occurred more than 15 times, but the validator is only showing first 15 of errors of the same type. To see all of the errors associated with the table `https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv` we can click the `View all Errors` button:
-![pp3 view all errors](img/pp3_view_all_errors.png)
-This will relocate us to a site where we can see all of the 112 occurrences of the `Char outside of quotes` error:
-![pp3 all errors](img/pp3_all_errors.png)
-
-
-### Validation of remote metadata file (PP4.)
-For this use case we will borrow one of the [integration tests](https://w3c.github.io/csvw/tests/#manifest-validation) specifically [test042](https://w3c.github.io/csvw/tests/#manifest-validation#test042).
-Contents of this file will be are saved at [PP4/](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/Docs/User/WebApp/Examples/PP4).
-
-First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](#main-navigation).
-2. Click on the `Metadata Data` link in the [Second navigation](#validate-screens-second-navigation).
-3. Click on the `Remote Files` link in the [Third navigation](#validate-screens-third-navigation).
-
-Insert the `https://w3c.github.io/csvw/tests/test042/csv-metadata.json` into the `URL input` field:
-![pp4 input](img/pp4_input.png)
-Start the validation by clicking on the `Start Validation` button: 
-![pp4 start validation](img/pp4_start_validation.png)
-Afterwards you will see the result page:
-![pp4 result page](img/pp4_result_page.png)
-Here the warning of wrong text direction property value has occurred.
-
-### Validation of remote table group with remote metadata file (PP6.)
-
-For this use case we will borrow one of the [integration tests](https://w3c.github.io/csvw/tests/#manifest-validation) specifically [test097](https://w3c.github.io/csvw/tests/#manifest-validation#test097).
-Contents of this file will be are saved at [PP6/](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/Docs/User/WebApp/Examples/PP6).
-
-First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](#main-navigation).
-2. Click on the `Both (overriding)` link in the [Second navigation](#validate-screens-second-navigation).
-3. Click on the `Remote Files` link in the [Third navigation](#validate-screens-third-navigation).
-
-Insert the `https://w3c.github.io/csvw/tests/test097-metadata.json` into the first `URL input` field:
-![pp6 first insert](img/pp6_first_insert.png)
-Insert the `https://w3c.github.io/csvw/tests/countries.csv` into the second `URL input` field:
-![pp6 second insert](img/pp6_second_insert.png)
-Add third input field by clicking `Add tabular file` button:
-![pp6 add url input](img/pp6_add_url_input.png)
-Insert the `https://w3c.github.io/csvw/tests/country_slice.csv` into the third `URL input` field:
-![pp6 third insert](img/pp6_third_insert.png)
-Start the validation by clicking on the `Start Validation` button: 
-![pp6 start validation](img/pp6_start_validation.png)
-Afterwards you will see the result page:
-![pp6 result page](img/pp6_result_page.png)
-Here the warning of wrong object property value has occurred.
 
