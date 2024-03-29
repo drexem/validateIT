@@ -42,6 +42,27 @@ You can choose between:
 If you are located at one of validate screens you can typically choose between the local validation and remote validation (except for [Metadata validation](../general/index.md#section-metadataValidation)) by third navigation menu:
 ![third navigation](img/third_navigation.png)
 
+### Result page details
+On the result page you can see the general information about the validation at the top of the screen:
+![result page general](img/result_page_general.png)
+It contains following properties:
+- **Validation status** - this is the main property. It contains general status of validation:
+  - `VALID` - no ERRORS or WARNINGS occurred during the validation
+  - `WARNING` - WARNINGS occurred during the validation but no ERRORS occurred
+  - `ERROR` - ERRORS occurred during the validation and possibly some WARNINGS too.
+- **Tables processed** - contains number of tables processed during the validation
+- **Used metadata IRI** - contains IRI of metadata file used for the validation. If you did not provide any you will see `None metadata were used` and small warning, because the best practice is to use metadata file, so maybe you just forgot to add it or you wanted it to be located but it was not.
+- **Collapsibles of ERRORS and WARNINGS** - under these information you can see collapsibles of errors and warnings grouped by their type. Validator only shows first 15 errors of the same type, all errors can be shown on [another page](#validation-of-remote-csv-file-pp3).
+
+You can see information related to one of the tables that has been validated down below:
+![result page table](img/result_page_table.png)
+It contains the following properties:
+- **Validation status** - this contains validation status of particular table. Keywords have the same meaning as in the general case.
+- **Columns processed** - how many columns have been processed in this table.
+- **Rows processed** - how many rows have been processed in this table.
+- **Cells processed** - how many cells have been processed in this table.
+- **Collapsibles of ERRORS and WARNINGS** - under these information you can see collapsibles of errors and warnings grouped by their type. Validator only shows first 15 errors of the same type, all errors can be shown on [another page](#validation-of-remote-csv-file-pp3).
+
 ## Typical usage scenarios
 
 Here we will walk through some typical use cases. As mentioned [before](#web-app---user-documentation) we will work with some example files located [here](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/Attachments/Web_Service?ref_type=heads) so you can download them and work with us step by step!
