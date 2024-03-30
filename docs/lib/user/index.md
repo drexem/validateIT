@@ -54,6 +54,25 @@ IResultWriter csvResultWriter = ResultWriterFactory.CreateResultWriter(ResultFil
 csvResultWriter.GenerateResult(resultPath, result1.GetValidationDetails);
 ```
 
+Or you can review individual errors! (Similarly for warnings.):
+```csharp
+// iterate through general errors
+foreach(var error in result1.GetValidationDetails.GeneralErrors)
+{
+    Console.WriteLine(error.GetMessage(CultureInfo.CurrentCulture));
+}
+
+// foreach errors related to specific table
+foreach(var tableDetails in result1.GetValidationDetails.TableValidationDetails)
+{
+    foreach(var error in tableDetails.Errors)
+    {
+        Console.WriteLine(error.GetMessage(CultureInfo.CurrentCulture));
+    }
+}
+```
+
+
 Whole example:
 
 ```csharp
@@ -87,6 +106,21 @@ switch (result1.GetValidationResultType)
     case ValidationResultType.ERROR:
         Console.WriteLine("Errors occurred during the validaiton!");
         break;
+}
+
+// iterate through general errors
+foreach (var error in result1.GetValidationDetails.GeneralErrors)
+{
+    Console.WriteLine(error.GetMessage(CultureInfo.CurrentCulture));
+}
+
+// foreach errors related to specific table
+foreach(var tableDetails in result1.GetValidationDetails.TableValidationDetails)
+{
+    foreach(var error in tableDetails.Errors)
+    {
+        Console.WriteLine(error.GetMessage(CultureInfo.CurrentCulture));
+    }
 }
 
 string resultPath = @"/data/result.csv";
