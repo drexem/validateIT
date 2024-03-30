@@ -2,9 +2,9 @@
 Here we will work with the [PP1/example.csv](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP1/example.csv?ref_type=heads)
 
 First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](user_web_app.md#main-navigation).
-2. Click on the `Tabular Data` link in the [Second navigation](user_web_app.md#validate-screens-second-navigation).
-3. Click on the `Local Files` link in the [Third navigation](user_web_app.md#validate-screens-third-navigation).
+1. Click on the `Validate` link in the [Main navigation](index.md#main-navigation).
+2. Click on the `Tabular Data` link in the [Second navigation](index.md#validate-screens-second-navigation).
+3. Click on the `Local Files` link in the [Third navigation](index.md#validate-screens-third-navigation).
 
 Now click on the `Drag&Drop` field:
 ![drag and drop click tabular](img/drag_and_drop_click_tabular.png)

@@ -27,10 +27,10 @@ Copyright (C) 2024 ValidateCLI
 ```
 Now we will take a closer look at different types of validation and how you can start them. Also we will look at how to use different CLI parameters and arguments.
 
-So as it is described in [general information](../general/index.md) there are three types of validation and we will show you how to run all of them!
+So as it is described in [general information](../../general/index.md) there are three types of validation and we will show you how to run all of them!
 
 ## Tabular validation
-Look at the definition of [tabular validation](../general/index.md#section-tabularValidation).
+Look at the definition of [tabular validation](../../general/index.md#section-tabularValidation).
 
 You can run remote tabular validation by invoking the validator with arguments:
 ```bash
@@ -47,7 +47,7 @@ Alternatively similarly you can run local tabular validation by invoking:
 Replace the `/home/user/Desktop/my.csv` with path to your desired local `tabular data file`
 
 ## Metadata validation
-Look at the definition of [metadata validation](../general/index.md#section-metadataValidation).
+Look at the definition of [metadata validation](../../general/index.md#section-metadataValidation).
 
 You can run remote metadata validation by invoking the validator with arguments:
 ```bash
@@ -64,7 +64,7 @@ Alternatively similarly you can run local metadata validation by invoking:
 Replace the `/home/user/Desktop/my_schema.json` with path to your desired local `metadata file`
 
 ## Overriding validation
-Look at the definition of [overriding validation](../general/index.md#section-overridingValidation).
+Look at the definition of [overriding validation](../../general/index.md#section-overridingValidation).
 
 
 You can run remote overriding validation by invoking the validator with arguments:

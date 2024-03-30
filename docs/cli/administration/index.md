@@ -6,7 +6,7 @@ Here you will find the information needed for running the CLI version of Validat
 - **[Docker](#docker)**
 - **[.NET Build](#net-build)**
 
-Don't forget to check out the [user documentation](../user/user_cli.md) of CLI App!
+Don't forget to check out the [user documentation](../user/index.md) of CLI App!
 
 ## Docker
 To use this app you need to have docker installed on your local machine and have the docker daemon running!
@@ -24,7 +24,7 @@ Now you can run the application using command:
 docker run validate-image
 ```
 
-This will run the application. However the application will expect some command line [arguments](../user/user_cli.md) to follow the command.
+This will run the application. However the application will expect some command line [arguments](../user/index.md) to follow the command.
 
 ### Example usage (docker)
 
@@ -40,9 +40,9 @@ docker run validate-image --metadataIRI https://w3c.github.io/csvw/tests/test035
 
 This will start remote validation on a file that is part of the integration tests for the `validator`. You
 can replace the URL with arbitrary URL of metadata file you want to validate. In this case the metadata starts
-with metadata file so no other metadata is located, this type of validation is called [Metadata validation](../general/index.md#validation-types)
+with metadata file so no other metadata is located, this type of validation is called [Metadata validation](../../general/index.md#validation-types)
 
-If you want to start [tabular validation](../general/index.md#validation-types) you can do so by invoking:
+If you want to start [tabular validation](../../general/index.md#validation-types) you can do so by invoking:
 ```bash
 docker run validate-image --tabularIRI https://w3c.github.io/csvw/tests/test006.csv
 ```
@@ -51,7 +51,7 @@ If you provide both parameters:
 ```bash
 docker run validate-image --tabularIRI https://w3c.github.io/csvw/tests/test012/tree-ops.csv --metadataIRI https://w3c.github.io/csvw/tests/test012/csv-metadata.json
 ```
-The validation will be conducted as [overriding](../general/index.md#validation-types).
+The validation will be conducted as [overriding](../../general/index.md#validation-types).
 
 #### Local files
 
@@ -82,7 +82,7 @@ If you provide both paths:
 ```bash
 docker run -v /opt/myFiles:/data validate-image --metadataIRI /data/metadata.json --tabularIRI /data/tabular.csv
 ```
-the validation will be done as [overriding](../general/index.md#validation-types). That means that the reference from the
+the validation will be done as [overriding](../../general/index.md#validation-types). That means that the reference from the
 metadata file `metadata.json` to another file will be overriden to the path you provided, in this 
 case `/data/tabular.csv`. This is useful if you want to use the same schema for different tabular
 files.
@@ -97,7 +97,7 @@ This is done using the parameter -v:
 ```
 this will map the directory `/my/local/path` of your local machine into the directory `/my/docker/container/path` in the docker container. Since this mapping we will be using only the mapped paths as the Validator running inside the Docker container cannot access your local files.
 
-Now if we want to start for example [tabular validation](../general/index.md#validation-types) we can do so by invoking:
+Now if we want to start for example [tabular validation](../../general/index.md#validation-types) we can do so by invoking:
 ```bash
 docker run -v /my/local/path:/my/docker/container/path validate-image --tabularIRI /my/docker/container/path/my.csv --rdfPaths /my/docker/container/path/result.ttl
 ```
@@ -127,20 +127,20 @@ dotnet run [CLI arguments]
 
 ## Examples
 
-Start [Tabular validation](../general/index.md#validation-types):
+Start [Tabular validation](../../general/index.md#validation-types):
 ```bash
 dotnet run --tabularIRI https://w3c.github.io/csvw/tests/test005.csv
 ```
-Start [Metadata validation](../general/index.md#validation-types):
+Start [Metadata validation](../../general/index.md#validation-types):
 ```bash
 dotnet run --metadataIRI https://w3c.github.io/csvw/tests/test034/csv-metadata.json
 ```
-Start [Overriding validation](../general/index.md#validation-types):
+Start [Overriding validation](../../general/index.md#validation-types):
 ```bash
 dotnet run --metadataIRI https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json --tabularIRI https://w3c.github.io/csvw/tests/test011/tree-ops.csv
 ```
 
 You can replace the URLs with your local file paths to validate local files!
 
-Please checkout the [arguments](../user/user_cli.md#cli-application---user-documentation) 
+Please checkout the [arguments](../user/index.md) 
 documentation for the command line for more info about the usage.

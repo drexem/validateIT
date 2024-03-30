@@ -2,6 +2,12 @@
 
 Welcome to Validate IT - your solution for validating CSV tabular data and metadata, adhering to [CSV on the Web recommendations](https://www.w3.org/TR/tabular-data-primer/).
 
+## Validator applications:
+Validator currently offers 4 types of applications and you can read their documentations:
+- **[Library](/docs/lib/index.md)**
+- **[Cli Application](/docs/cli/index.md)** 
+- **[Web Service](/docs/web_service/index.md)** 
+- **[Web Application](docs/web_app/index.md)** 
 ## Documentation
 On this website you will find the documentation for this project!
 Available documentation:

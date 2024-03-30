@@ -63,6 +63,6 @@ You can configure:
 - **PollingInterval** - Defines time in seconds between pollings of result while waiting for it to finish in the validate views. **(Default 2000)**
 - **MaxLocalFileSizeForTabularDataMB** - defines maximum local tabular file size user can provide in MB. **(Default 20MB)**
 - **MaxLocalFileSizeForMetadataMB** - defines maximum local metadata file size user can provide in MB. **(Default 20MB)**
-- **MaxTabularUrlsOverriding** - defines max count of tabular URLs user can provide in the [Overriding validation](../general/index.md#validation-types) remote. **(Default 5)**
+- **MaxTabularUrlsOverriding** - defines max count of tabular URLs user can provide in the [Overriding validation](../../general/index.md#validation-types) remote. **(Default 5)**
 - **MaxErrorsShowed** - defines how many errors of one type can be shown in the result page. **(Default 15)**
-- **MaximumTabularFiles** - defines how many local tabular data files user can provide in the [Overriding validation](../general/index.md#validation-types) local. **(Default 5)**
+- **MaximumTabularFiles** - defines how many local tabular data files user can provide in the [Overriding validation](../../general/index.md#validation-types) local. **(Default 5)**

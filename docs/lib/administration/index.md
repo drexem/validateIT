@@ -2,7 +2,9 @@
 
 Here you will find the information needed for using the library in your code!
 
-Also don't forget to check out [developer documentation](../developer/dev_lib.md) for the library!
+Also don't forget to check out [developer documentation](../developer/index.md) for the library!
+
+You can check out the nugget package [here](https://www.nuget.org/packages/CSVW-validator-lib).
 
 ## Using Nuget Package Manager Console
 

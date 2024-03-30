@@ -1,7 +1,7 @@
 # Web App - user documentation
 
 Here we will walk you through some typical usage scenarios and teach you how to use our Web application.
-Before starting make sure you have read [general information](../general/index.md) about the validation.
+Before starting make sure you have read [general information](../../general/index.md) about the validation.
 
 We will use some local files to which we will always provide links for you to download them and try it out yourself. Generally the local example files are all situated [here](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/Docs/User/WebApp/Examples?ref_type=heads) so if you have cloned [the repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator) you have them ready.
 
@@ -34,12 +34,12 @@ You can check information about the validator and get links to useful stuff by c
 If you are located at one of validate screens you can choose between different [types of validation](../general/index.md#validation-types) with the second navigation menu:
 ![second navigation](img/second_nav_menu.png)
 You can choose between:
-- **[Tabular validation](../general/index.md#section-tabularValidation)** - by clicking on the link `Tabular Data`.
-- **[Metadata validation](../general/index.md#section-metadataValidation)** - by clicking on the link `Metadata`
-- **[Overriding validation](../general/index.md#section-overridingValidation)** - by clicking on the link `Both (overriding)`
+- **[Tabular validation](../../general/index.md#section-tabularValidation)** - by clicking on the link `Tabular Data`.
+- **[Metadata validation](../../general/index.md#section-metadataValidation)** - by clicking on the link `Metadata`
+- **[Overriding validation](../../general/index.md#section-overridingValidation)** - by clicking on the link `Both (overriding)`
 
 ### Validate screens third navigation
-If you are located at one of validate screens you can typically choose between the local validation and remote validation (except for [Metadata validation](../general/index.md#section-metadataValidation)) by third navigation menu:
+If you are located at one of validate screens you can typically choose between the local validation and remote validation (except for [Metadata validation](../../general/index.md#section-metadataValidation)) by third navigation menu:
 ![third navigation](img/third_navigation.png)
 
 ### Result page details
@@ -70,10 +70,10 @@ Here we will walk through some typical use cases. As mentioned [before](#web-app
 Also in some of use cases we use [integration tests](https://w3c.github.io/csvw/tests/#manifest-validation) files.
 
 Summary of use cases:
-- **[Validation of local CSV file (PP1.)](user_web_app_pp1.md)**
-- **[Validation of local metadata file (PP2. + PP5.)](user_web_app_pp2.md)**
-- **[Validation of remote CSV file (PP3.)](user_web_app_pp3md)**
-- **[Validation of remote metadata file (PP4.)](user_web_app_pp4.md)**
-- **[Validation of remote table group with remote metadata file (PP6.)](user_web_app_pp6.md)**
+- **[Validation of local CSV file (PP1.)](pp1.md)**
+- **[Validation of local metadata file (PP2. + PP5.)](pp2.md)**
+- **[Validation of remote CSV file (PP3.)](pp3.md)**
+- **[Validation of remote metadata file (PP4.)](pp4.md)**
+- **[Validation of remote table group with remote metadata file (PP6.)](pp6.md)**
 
 

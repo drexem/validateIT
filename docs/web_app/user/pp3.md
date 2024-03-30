@@ -3,9 +3,9 @@
 Now we will use file located at [PP3/example.csv](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv) so we wil work with the link `https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv`.
 
 First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](user_web_app.md#main-navigation).
-2. Click on the `Tabular Data` link in the [Second navigation](user_web_app.md#validate-screens-second-navigation).
-3. Click on the `Remote Files` link in the [Third navigation](user_web_app.md#validate-screens-third-navigation).
+1. Click on the `Validate` link in the [Main navigation](index.md#main-navigation).
+2. Click on the `Tabular Data` link in the [Second navigation](index.md#validate-screens-second-navigation).
+3. Click on the `Remote Files` link in the [Third navigation](index.md#validate-screens-third-navigation).
 
 Insert the `https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP3/example.csv` into the `URL input` field:
 ![pp3 URL input](img/pp3_url_input.png)

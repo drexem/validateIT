@@ -20,14 +20,14 @@ these bodies can contain 2 properties:
 - **metadataURL** - contains URL of metadata file we want to use for validation.
 - **tabularURL** - contains array of URLs of tabular files we want to validate.
 
-If you want to start [Tabular validation](../general/index.md#section-tabularValidation) provide just one table URL in the property `tabularURL`. For example:
+If you want to start [Tabular validation](../../general/index.md#section-tabularValidation) provide just one table URL in the property `tabularURL`. For example:
 ```json
 {
     "tabularURL": "https://w3c.github.io/csvw/tests/test042.csv"
 }
 ```
 
-If you want to start [Metadata validation](../general/index.md#section-metadataValidation) provide just property `metadataURL`.
+If you want to start [Metadata validation](../../general/index.md#section-metadataValidation) provide just property `metadataURL`.
 For example:
 ```json
 {
@@ -35,7 +35,7 @@ For example:
 }
 ```
 
-If you want to start [Overriding validation](../general/index.md#section-overridingValidation) provide both properties accordingly. For example:
+If you want to start [Overriding validation](../../general/index.md#section-overridingValidation) provide both properties accordingly. For example:
 ```json
 {
     "metadataURL": "https://w3c.github.io/csvw/tests/test077-metadata.json",
@@ -245,7 +245,7 @@ without the language parameter.
 <a id="TypicalUsage"></a>
 
 So typically a user want to validate a `tabular data file` with associated `metadata file`.
-The recommended approach is to start [Metadata validation](../general/index.md#section-metadataValidation). If you want to use [Tabular validation](../general/index.md#section-tabularValidation) or [Overriding validation](../general/index.md#section-overridingValidation) check out how you can [adjust](#validate) the body of the validate request.
+The recommended approach is to start [Metadata validation](../../general/index.md#section-metadataValidation). If you want to use [Tabular validation](../../general/index.md#section-tabularValidation) or [Overriding validation](../../general/index.md#section-overridingValidation) check out how you can [adjust](#validate) the body of the validate request.
 
 So we will send a `HTTP POST` request to the endpoint [api/Validate/](#validate) with this body:
 ```json
