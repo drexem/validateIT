@@ -19,5 +19,7 @@ Here you can see all the embedded namespaces:
 ![embedded namespaces](img/validateCliNs.png)
 
 Now we will describe what do they contain:
-- **Language** - contains classes that enable the localization of the CLI App. [Generated documentation]().
-- ****
+- **Language** - contains classes that enable the localization of the CLI App.
+- **Resources** - contains resource files of the CLI application.
+- **Result** - contains classes that create the result files in different formats - they call classes defined in [ValidateLib](../../lib/developer/index.md). Also they contain classes that generate the general messages to the command line.
+- **Validation** - contains `ValidationController` that orchestrates the validation process and communication of other modules.
