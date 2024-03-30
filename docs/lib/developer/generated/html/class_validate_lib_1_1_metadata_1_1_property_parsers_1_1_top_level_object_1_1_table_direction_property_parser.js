@@ -1,5 +1,0 @@
-var class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_direction_property_parser =
-[
-    [ "TableDirectionPropertyParser", "class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_direction_property_parser.html#a72dd7f0d7dd3de932ff81dcabd3c7d62", null ],
-    [ "ParseProperty", "class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_direction_property_parser.html#a9429b7d49952ba13cd88afa37c2c610a", null ]
-];

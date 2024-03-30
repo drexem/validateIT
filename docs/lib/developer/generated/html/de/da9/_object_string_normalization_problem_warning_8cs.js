@@ -1,0 +1,4 @@
+var _object_string_normalization_problem_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.ObjectStringNormalizationProblemWarning", "d5/dac/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_object_string_normalization_problem_warning.html", "d5/dac/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_object_string_normalization_problem_warning" ]
+];

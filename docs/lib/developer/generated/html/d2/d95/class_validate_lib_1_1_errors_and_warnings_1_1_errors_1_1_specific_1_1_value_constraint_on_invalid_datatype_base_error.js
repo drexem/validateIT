@@ -1,0 +1,6 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_value_constraint_on_invalid_datatype_base_error =
+[
+    [ "ValueConstraintOnInvalidDatatypeBaseError", "d2/d95/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_value_constraint_on_invalid_datatype_base_error.html#aef38c2a48154d94240ac7f2feff86b14", null ],
+    [ "GetMessage", "d2/d95/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_value_constraint_on_invalid_datatype_base_error.html#a85d1a6e71249f7d64a8beccbd0ed824e", null ],
+    [ "InvalidBase", "d2/d95/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_value_constraint_on_invalid_datatype_base_error.html#a5cd3e1b255307338cfcc7e54a044d2d9", null ]
+];

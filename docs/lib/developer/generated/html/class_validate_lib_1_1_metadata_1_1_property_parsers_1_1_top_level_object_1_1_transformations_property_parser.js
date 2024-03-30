@@ -1,5 +1,0 @@
-var class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_transformations_property_parser =
-[
-    [ "TransformationsPropertyParser", "class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_transformations_property_parser.html#ae4aa65a1efdc54891f571433926719dd", null ],
-    [ "ParseProperty", "class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_transformations_property_parser.html#a0dd2aa2852479ceef3b006d46f253fed", null ]
-];

@@ -1,0 +1,4 @@
+var _line_terminators_wrong_value_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.LineTerminatorsWrongValueWarning", "d4/d02/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_line_terminators_wrong_value_warning.html", "d4/d02/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_line_terminators_wrong_value_warning" ]
+];

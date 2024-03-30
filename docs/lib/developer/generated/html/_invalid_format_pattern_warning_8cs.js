@@ -1,4 +1,0 @@
-var _invalid_format_pattern_warning_8cs =
-[
-    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.InvalidFormatPatternWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_format_pattern_warning.html", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_format_pattern_warning" ]
-];

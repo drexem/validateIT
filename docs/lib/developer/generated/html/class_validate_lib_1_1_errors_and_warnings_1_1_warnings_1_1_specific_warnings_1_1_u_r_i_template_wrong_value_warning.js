@@ -1,4 +1,0 @@
-var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_u_r_i_template_wrong_value_warning =
-[
-    [ "URITemplateWrongValueWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_u_r_i_template_wrong_value_warning.html#a60b5eb6de5f0da3b01cb90d4fc648261", null ]
-];
