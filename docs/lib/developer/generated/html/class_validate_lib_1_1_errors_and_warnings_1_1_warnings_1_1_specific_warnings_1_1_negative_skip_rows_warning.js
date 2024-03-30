@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_negative_skip_rows_warning =
+[
+    [ "NegativeSkipRowsWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_negative_skip_rows_warning.html#aa1b0778987667d008b6a03f9900d695a", null ]
+];

@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_tabular_data_1_1_validation_1_1_validation_rules_1_1_cell_length_validation_rule =
+[
+    [ "ValidateCell", "class_validate_lib_1_1_tabular_data_1_1_validation_1_1_validation_rules_1_1_cell_length_validation_rule.html#a0fc0c28cbbe6148bdceb20be9d50243d", null ]
+];

@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_object_property_wrong_value_warning =
+[
+    [ "ObjectPropertyWrongValueWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_object_property_wrong_value_warning.html#ad5d39f672fbe727c3a3d0ddbcd9dc247", null ]
+];

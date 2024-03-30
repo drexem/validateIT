@@ -1,0 +1,5 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_two_satisfying_referenced_tables_error =
+[
+    [ "TwoSatisfyingReferencedTablesError", "class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_two_satisfying_referenced_tables_error.html#a3fd40a3ece4f6768cad54d9a7c804a2c", null ],
+    [ "GetMessage", "class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_two_satisfying_referenced_tables_error.html#ad5a4ff481963c9020104d1f2fd349549", null ]
+];

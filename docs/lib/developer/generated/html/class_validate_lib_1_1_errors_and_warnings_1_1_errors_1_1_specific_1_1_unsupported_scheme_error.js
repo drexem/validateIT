@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_unsupported_scheme_error =
+[
+    [ "UnsupportedSchemeError", "class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_unsupported_scheme_error.html#aca301c19a7f3e77441e9768cdfbd8d12", null ]
+];

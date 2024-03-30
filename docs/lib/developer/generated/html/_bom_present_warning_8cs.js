@@ -1,0 +1,4 @@
+var _bom_present_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.BomPresentWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_bom_present_warning.html", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_bom_present_warning" ]
+];

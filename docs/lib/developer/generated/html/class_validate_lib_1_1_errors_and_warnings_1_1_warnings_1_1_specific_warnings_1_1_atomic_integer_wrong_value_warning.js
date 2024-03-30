@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_atomic_integer_wrong_value_warning =
+[
+    [ "AtomicIntegerWrongValueWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_atomic_integer_wrong_value_warning.html#a235772de4a5b391e475d080dcaf03d1a", null ]
+];

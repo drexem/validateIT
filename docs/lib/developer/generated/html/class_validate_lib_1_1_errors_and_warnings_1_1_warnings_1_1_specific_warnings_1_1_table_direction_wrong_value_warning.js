@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_table_direction_wrong_value_warning =
+[
+    [ "TableDirectionWrongValueWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_table_direction_wrong_value_warning.html#a1210ac7b457e78b6aa81f63852a1b04a", null ]
+];

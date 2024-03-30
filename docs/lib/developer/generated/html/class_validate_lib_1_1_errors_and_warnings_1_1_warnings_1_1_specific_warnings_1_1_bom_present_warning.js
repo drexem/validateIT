@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_bom_present_warning =
+[
+    [ "BomPresentWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_bom_present_warning.html#ac21240eeb69c7ae72c770bb089c47a4d", null ]
+];

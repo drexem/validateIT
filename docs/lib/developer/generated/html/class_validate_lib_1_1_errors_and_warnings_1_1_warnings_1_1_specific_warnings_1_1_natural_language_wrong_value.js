@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_natural_language_wrong_value =
+[
+    [ "NaturalLanguageWrongValue", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_natural_language_wrong_value.html#a7d2f691d1c98636897897bf7f5f5505a", null ]
+];

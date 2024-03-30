@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_datatype_base_wrong_value_warning =
+[
+    [ "DatatypeBaseWrongValueWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_datatype_base_wrong_value_warning.html#a3e62163651145dfe8b5fbfe385100e4d", null ]
+];

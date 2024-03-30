@@ -1,0 +1,4 @@
+var _duplicate_in_p_k_validation_error_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Errors.ValidationErrors.DuplicateInPKValidationError", "class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_validation_errors_1_1_duplicate_in_p_k_validation_error.html", "class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_validation_errors_1_1_duplicate_in_p_k_validation_error" ]
+];

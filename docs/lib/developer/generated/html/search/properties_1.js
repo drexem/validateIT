@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['abouturl_0',['aboutURL',['../class_validate_lib_1_1_metadata_1_1_descriptors_1_1_inherited_properties_descriptor.html#aadec0960c4d5cbbee6aeb4b976f15569',1,'ValidateLib.Metadata.Descriptors.InheritedPropertiesDescriptor.aboutURL'],['../class_validate_lib_1_1_tabular_data_1_1_annotated_tabular_data_model_1_1_cell.html#a43b0d778326d1bd142c6867fe2fe7305',1,'ValidateLib.TabularData.AnnotatedTabularDataModel.Cell.aboutURL'],['../class_validate_lib_1_1_tabular_data_1_1_annotated_tabular_data_model_1_1_column.html#a030d3ac829950400a3e2d5387606a362',1,'ValidateLib.TabularData.AnnotatedTabularDataModel.Column.aboutURL']]],
+  ['additionalinfo_1',['AdditionalInfo',['../class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_error.html#a1661e13c8e6a9dadeff3125962a5d602',1,'ValidateLib.ErrorsAndWarnings.Errors.Error.AdditionalInfo'],['../class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_warning.html#a0b88491494a3e6b64b1c54efe498ad8a',1,'ValidateLib.ErrorsAndWarnings.Warnings.Warning.AdditionalInfo']]]
+];

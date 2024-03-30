@@ -1,0 +1,5 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_format_pattern_warning =
+[
+    [ "InvalidFormatPatternWarning", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_format_pattern_warning.html#a5bf4bdac24917292b912695f9f767092", null ],
+    [ "GetMessage", "class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_format_pattern_warning.html#a8bf96a077047187da181d85149230ca8", null ]
+];
