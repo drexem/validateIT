@@ -8,6 +8,7 @@ Validator currently offers 4 types of applications and you can read their docume
 - **[Cli Application](/docs/cli/index.md)** 
 - **[Web Service](/docs/web_service/index.md)** 
 - **[Web Application](docs/web_app/index.md)** 
+  
 ## Documentation
 On this website you will find the documentation for this project!
 Available documentation:
