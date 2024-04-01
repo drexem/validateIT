@@ -22,3 +22,7 @@ on our products!
 
 Here you can check out our documentation but if you want to look at the code help yourself at our 
 main gitlab [gitlab repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator).
+
+## Code Coverage
+
+Also check out the code coverage of [Library](docs/lib/index.md) [here]()
