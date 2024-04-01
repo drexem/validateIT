@@ -25,4 +25,4 @@ main gitlab [gitlab repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator
 
 ## Code Coverage
 
-Also check out the code coverage of [Library](docs/lib/index.md) [here]()
+Also check out the code coverage of [Library](docs/lib/index.md) [here](docs/lib/index.md#code-coverage).
