@@ -122,7 +122,23 @@ dotnet restore
 ```
 4. To start the validation run:
 ```bash
-dotnet run [CLI arguments]
+dotnet run --configuration Release [CLI arguments]
+```
+
+ALternatively you can follow these steps:
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator).
+2. Relocate to the directory [CSV_Validator](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/CSV_Validator).
+3. To restore the project run:
+```bash
+dotnet restore
+```
+4. Build the application:
+```bash
+dotnet build --configuration Release --output /output/directory
+```
+5. Run the application
+```bash
+dotnet /output/directory/ValidateCLI.dll
 ```
 
 ## Examples
