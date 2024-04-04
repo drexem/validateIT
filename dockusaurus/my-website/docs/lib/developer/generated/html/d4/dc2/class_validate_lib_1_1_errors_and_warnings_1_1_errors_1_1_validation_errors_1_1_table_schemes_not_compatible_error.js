@@ -1,0 +1,5 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_validation_errors_1_1_table_schemes_not_compatible_error =
+[
+    [ "TableSchemesNotCompatibleError", "d4/dc2/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_validation_errors_1_1_table_schemes_not_compatible_error.html#a0ba841c992bd5a24c5d093528e73875d", null ],
+    [ "GetMessage", "d4/dc2/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_validation_errors_1_1_table_schemes_not_compatible_error.html#ad3d180840c3fc558c8a897870f47ecbd", null ]
+];

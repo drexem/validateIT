@@ -1,0 +1,4 @@
+var _metadata_file_could_not_be_loaded_error_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Errors.Specific.MetadataFileCouldNotBeLoadedError", "de/de2/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_metadata_file_could_not_be_loaded_error.html", "de/de2/class_validate_lib_1_1_errors_and_warnings_1_1_errors_1_1_specific_1_1_metadata_file_could_not_be_loaded_error" ]
+];

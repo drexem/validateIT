@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_atomic_property_bool_wrong_value_warning =
+[
+    [ "AtomicPropertyBoolWrongValueWarning", "d6/dca/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_atomic_property_bool_wrong_value_warning.html#a392b69fc6b5f5657a1821195544aa4db", null ]
+];

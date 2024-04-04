@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['mapcontrollerroute_0',['MapControllerRoute',['../dd/d5c/_program_8cs.html#a2005a6ceb00f88911a7766f82d99495c',1,'MapControllerRoute(name:&quot;default&quot;, pattern:&quot;{controller=Validate}/{action=Index}/{id?}&quot;):&#160;Program.cs'],['../dd/d5c/_program_8cs.html#a4394260e1eb654dbd854955f65fc99b8',1,'MapControllerRoute(name:&quot;result&quot;, pattern:&quot;{controller=Result}/{id?}&quot;):&#160;Program.cs'],['../dd/d5c/_program_8cs.html#a11a2b1aa128c5a4d5f164e2be0dc5ad2',1,'MapControllerRoute(name:&quot;home&quot;, pattern:&quot;{controller=Home}/{id?}&quot;):&#160;Program.cs'],['../dd/d5c/_program_8cs.html#a5951c8357157eca34eb84385ed22596e',1,'MapControllerRoute(name:&quot;webSocket&quot;, pattern:&quot;{controller=WebSocket}/{id?}&quot;):&#160;Program.cs']]],
+  ['maxerrorsshowed_1',['MaxErrorsShowed',['../de/d9f/class_web_app_1_1_constants_1_1_web_app_constants.html#a917db5cfbcd899ec22db8eeb3825f392',1,'WebApp::Constants::WebAppConstants']]],
+  ['maximumtabularfiles_2',['MaximumTabularFiles',['../de/d9f/class_web_app_1_1_constants_1_1_web_app_constants.html#affdce107c102c8e1d8181283d92ba850',1,'WebApp::Constants::WebAppConstants']]],
+  ['maxlocalfilesizeformetadata_3',['MaxLocalFileSizeForMetadata',['../de/d9f/class_web_app_1_1_constants_1_1_web_app_constants.html#a6b8a248c0697c8f79b5783db40399495',1,'WebApp::Constants::WebAppConstants']]],
+  ['maxlocalfilesizefortabulardata_4',['MaxLocalFileSizeForTabularData',['../de/d9f/class_web_app_1_1_constants_1_1_web_app_constants.html#a3014733f24b3ff8f16f8b7e75a056c72',1,'WebApp::Constants::WebAppConstants']]],
+  ['maxtabularurlsoverriding_5',['MaxTabularUrlsOverriding',['../de/d9f/class_web_app_1_1_constants_1_1_web_app_constants.html#a64fd0750ccfdd7d126c03300e63c7818',1,'WebApp::Constants::WebAppConstants']]],
+  ['metadataremote_6',['MetadataRemote',['../dc/d42/class_web_app_1_1_controllers_1_1_validate_controller.html#a3195fc62f14c82fb95585690d79d4d24',1,'WebApp::Controllers::ValidateController']]],
+  ['mit_20license_20mit_7',['The MIT License (MIT)',['../dc/df4/md__c_1_2skola__karlovka_2_r_p_2code_2csv-validator_2_c_s_v___validator_2_web_app_2wwwroot_2lib_05d8d4cac3666819a9e90dc6604f41bd.html',1,'']]]
+];

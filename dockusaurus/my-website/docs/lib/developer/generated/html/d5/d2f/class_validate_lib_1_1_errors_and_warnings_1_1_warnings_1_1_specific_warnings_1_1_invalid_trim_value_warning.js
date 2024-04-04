@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_trim_value_warning =
+[
+    [ "InvalidTrimValueWarning", "d5/d2f/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_invalid_trim_value_warning.html#a58bfc639b435d3c420e0c56627315951", null ]
+];

@@ -1,0 +1,4 @@
+var _top_level_object_2_notes_property_parser_8cs =
+[
+    [ "ValidateLib.Metadata.PropertyParsers.TopLevelObject.NotesPropertyParser", "d9/df2/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_notes_property_parser.html", "d9/df2/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_notes_property_parser" ]
+];

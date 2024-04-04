@@ -1,0 +1,26 @@
+var _program_8cs =
+[
+    [ "AddControllersWithViews", "dd/d5c/_program_8cs.html#aaec18222bba1bdb848b8fffa15dc0bbb", null ],
+    [ "AddDbContextFactory< ServiceContext >", "dd/d5c/_program_8cs.html#add13130d663892ab634b232311afccdb", null ],
+    [ "AddLocalization", "dd/d5c/_program_8cs.html#a647066c40270a841aaeb28f727eb55b6", null ],
+    [ "AddSingleton< LocService >", "dd/d5c/_program_8cs.html#afd1563014715244967b15b77a9dad788", null ],
+    [ "Configure< RequestLocalizationOptions >", "dd/d5c/_program_8cs.html#a662ca2ddee185d9717205391ba889b3a", null ],
+    [ "if", "dd/d5c/_program_8cs.html#af2d0c02efe3fbc2d94e5b6e316777c4d", null ],
+    [ "MapControllerRoute", "dd/d5c/_program_8cs.html#a2005a6ceb00f88911a7766f82d99495c", null ],
+    [ "MapControllerRoute", "dd/d5c/_program_8cs.html#a11a2b1aa128c5a4d5f164e2be0dc5ad2", null ],
+    [ "MapControllerRoute", "dd/d5c/_program_8cs.html#a4394260e1eb654dbd854955f65fc99b8", null ],
+    [ "MapControllerRoute", "dd/d5c/_program_8cs.html#a5951c8357157eca34eb84385ed22596e", null ],
+    [ "Run", "dd/d5c/_program_8cs.html#aaa3dbf02e269c3ef7e8546d290c6b3dd", null ],
+    [ "UseAuthorization", "dd/d5c/_program_8cs.html#af6f72d752b2e73aa0292f74bd13237ab", null ],
+    [ "UseRequestLocalization", "dd/d5c/_program_8cs.html#adda9603568e3bf5202106b35e4011f9d", null ],
+    [ "UseRouting", "dd/d5c/_program_8cs.html#a94c810d266751293a2d511a720a5625f", null ],
+    [ "UseStaticFiles", "dd/d5c/_program_8cs.html#a906a3ce545279a7a73941f1d7b64d7cf", null ],
+    [ "UseWebSockets", "dd/d5c/_program_8cs.html#ad5bce40c3ac09d123e6fb328cd001b2b", null ],
+    [ "app", "dd/d5c/_program_8cs.html#a7b225fcb720e4d5ed2bbf60e28a25e6d", null ],
+    [ "builder", "dd/d5c/_program_8cs.html#a2f78352277081c620fd4cf92a5ce15e5", null ],
+    [ "connectionString", "dd/d5c/_program_8cs.html#a067cdd5f0fed6b2598fae7de8607e7da", null ],
+    [ "dbHost", "dd/d5c/_program_8cs.html#acd09e90d1274fd684cfcfb44c241d00b", null ],
+    [ "dbName", "dd/d5c/_program_8cs.html#ac2669e67e9b447caeaaead91e5b51012", null ],
+    [ "dbPassword", "dd/d5c/_program_8cs.html#a5381760bcc3f0bc8e6bf53ce5d9e6cae", null ],
+    [ "webSocketsOptions", "dd/d5c/_program_8cs.html#a37089b27b4c76293d05ec258cb3ec392", null ]
+];
