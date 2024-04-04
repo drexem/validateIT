@@ -1,0 +1,4 @@
+var _u_r_i_template_wrong_value_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.URITemplateWrongValueWarning", "d5/df6/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_u_r_i_template_wrong_value_warning.html", "d5/df6/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_u_r_i_template_wrong_value_warning" ]
+];

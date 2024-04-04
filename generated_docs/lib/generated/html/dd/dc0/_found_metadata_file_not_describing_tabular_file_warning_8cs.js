@@ -1,0 +1,4 @@
+var _found_metadata_file_not_describing_tabular_file_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.FoundMetadataFileNotDescribingTabularFileWarning", "df/d04/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_found_metadata84f57026a6538110fc323d039a27b36a.html", "df/d04/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_found_metadata84f57026a6538110fc323d039a27b36a" ]
+];

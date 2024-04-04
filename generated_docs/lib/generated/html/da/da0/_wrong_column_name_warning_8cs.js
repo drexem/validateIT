@@ -1,0 +1,4 @@
+var _wrong_column_name_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.WrongColumnNameWarning", "d1/dec/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_wrong_column_name_warning.html", "d1/dec/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_wrong_column_name_warning" ]
+];
