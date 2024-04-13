@@ -1,0 +1,174 @@
+---
+openapi: 3.0.0
+info:
+  title: CSV-validator API
+  description: The API for the CSV-validator. More information at the Web Service [documentation](https://drexem.github.io/validateIT/docs/web_service/).
+  version: 1.0.2
+paths:
+  /api/Validate:
+    post:
+      tags:
+      - Validate
+      description: Starts validation for given files. More info [here](https://drexem.github.io/validateIT/docs/web_service/user/#validate).
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ValidationObject'
+      responses:
+        "200":
+          description: Validation of given files went successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationResponse'
+        "400":
+          description: Error has occurred while processing the validation request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationResponseFault'
+  /apit/GetResult/{resultID}:
+    get:
+      tags:
+      - ValidationResult
+      description: Retrieves a validation result based on ResultId. [More info](https://drexem.github.io/validateIT/docs/web_service/user/#apigetresultresultid).
+      parameters:
+      - name: resultID
+        in: path
+        description: The ID of the validation result to retrieve
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: number
+          example: 15467894
+      responses:
+        "200":
+          description: Returns validation result in a convenient way for a web report.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationResult'
+        "404":
+          description: The requested result was not found.
+components:
+  schemas:
+    ValidationObject:
+      type: object
+      properties:
+        metadataUrl:
+          type: string
+          format: url
+          example: http://example.org/countries-metadata.json
+        tabularUrl:
+          type: string
+          format: url
+          example: http://example.org/countries.csv
+    ValidationResponse:
+      type: object
+      properties:
+        resultID:
+          type: number
+          example: 154678
+    ValidationResponseFault:
+      type: object
+      properties:
+        isBodyValid:
+          type: boolean
+          example: false
+        body:
+          type: object
+          properties:
+            metadataUrl:
+              type: string
+              example: "invalid metadataURL"
+            tabularUrl:
+              type: string
+              example: null
+              
+              
+    ValidationResult:
+      type: object
+      properties:
+        ResultID:
+          type: number
+          example: 7
+        ValidationStatus:
+          type: string
+          example: ERROR
+          enum:
+            - VALID
+            - WARNING
+            - ERROR
+            - UNDEFINED
+        ProgressStatus:
+          type: string
+          example: "FINISHED"
+          enum:
+            - RECEIVED
+            - VALIDATING
+            - FINISHED
+            - CANCELED
+        CreatedAt:
+          type: string
+          format: date-time
+          example: "2024-03-28T18:13:52.8947799"
+        TableGroupResult:
+          type: object
+          properties:
+            TablesProcessed:
+              type: integer
+              example: 1
+            MetadataIRI:
+              type: string
+              format: uri
+              example: "https://w3c.github.io/csvw/tests/test279-metadata.json"
+            GeneralErrors:
+              type: array
+              items: {}
+              example: []
+            GeneralWarnings:
+              type: array
+              items: {}
+              example: []
+            TableResults:
+              type: array
+              items:
+                type: object
+                properties:
+                  TableIRI:
+                    type: string
+                    format: uri
+                    example: "https://w3c.github.io/csvw/tests/test279.csv"
+                  RowsProcessed:
+                    type: integer
+                    example: 1
+                  ColumnsProcessed:
+                    type: integer
+                    example: 1
+                  CellsProcessed:
+                    type: integer
+                    example: 1
+                  NumberOfErrors:
+                    type: integer
+                    example: 1
+                  NumberOfWarnings:
+                    type: integer
+                    example: 0
+                  Errors:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        Message:
+                          type: string
+                          example: "There is datatype validation error!\r\nThe cell does not contain valid value of datatype specified in metadata file!\r\nTable url: https://w3c.github.io/csvw/tests/test279.csv\r\nCell row: 1 column: 1\r\nAdditional info: Foo\r\nMore about datatypes at:\r\nhttps://www.w3.org/TR/2015/REC-tabular-metadata-20151217/#datatypes"
+                  Warnings:
+                    type: array
+                    items: {}
+                    example: []
+
+          
+          
+
