@@ -1,0 +1,4 @@
+var _natural_language_wrong_value_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.NaturalLanguageWrongValue", "da/d45/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_natural_language_wrong_value.html", "da/d45/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_natural_language_wrong_value" ]
+];

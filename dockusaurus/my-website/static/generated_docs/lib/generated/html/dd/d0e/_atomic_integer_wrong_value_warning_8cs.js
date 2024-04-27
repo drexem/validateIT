@@ -1,0 +1,4 @@
+var _atomic_integer_wrong_value_warning_8cs =
+[
+    [ "ValidateLib.ErrorsAndWarnings.Warnings.SpecificWarnings.AtomicIntegerWrongValueWarning", "da/d11/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_atomic_integer_wrong_value_warning.html", "da/d11/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_atomic_integer_wrong_value_warning" ]
+];

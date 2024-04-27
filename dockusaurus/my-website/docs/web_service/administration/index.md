@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Web App and Web Service - administration documentation
 Here you will find the information needed for running, configuring and deploying of the Web App and Web Service. Don't forget to check out 
 

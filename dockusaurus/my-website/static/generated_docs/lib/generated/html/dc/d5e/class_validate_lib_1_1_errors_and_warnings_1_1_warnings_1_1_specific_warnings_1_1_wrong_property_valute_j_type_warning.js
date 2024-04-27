@@ -1,0 +1,5 @@
+var class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_wrong_property_valute_j_type_warning =
+[
+    [ "WrongPropertyValuteJTypeWarning", "dc/d5e/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_wrong_property_valute_j_type_warning.html#a3cefc82a447ad8000f38109518e5fd62", null ],
+    [ "GetMessage", "dc/d5e/class_validate_lib_1_1_errors_and_warnings_1_1_warnings_1_1_specific_warnings_1_1_wrong_property_valute_j_type_warning.html#a373bbeb07b9b0f86aed9294b1667f7ed", null ]
+];

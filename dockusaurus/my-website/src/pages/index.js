@@ -20,9 +20,10 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/">
-            Docusaurus Tutorial - 5min ⏱️
+            Dive into the documentation of validateIT!
           </Link>
         </div>
+        <img src="img/penguin_logo.svg" alt="Logo" style={{ marginTop: '20px', height: '30vh' }} />
       </div>
     </header>
   );
@@ -32,7 +33,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

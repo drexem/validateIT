@@ -5,9 +5,9 @@ As the validation of just the local metadata file itself does not make much sens
 We will be working with the files in directory [PP2/](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/blob/master/Docs/User/WebApp/Examples/PP2/)
 
 First lets locate to the correct validate screen.
-1. Click on the `Validate` link in the [Main navigation](index.md#main-navigation).
-2. Click on the `Both (overriding)` link in the [Second navigation](index.md#validate-screens-second-navigation).
-3. Click on the `Local Files` link in the [Third navigation](index.md#validate-screens-third-navigation).
+1. Click on the `Validate` link in the [Main navigation](./#main-navigation).
+2. Click on the `Both (overriding)` link in the [Second navigation](./#validate-screens-second-navigation).
+3. Click on the `Local Files` link in the [Third navigation](./#validate-screens-third-navigation).
 
 Now click on the top `Drag&Drop` field:
 ![pp2 top drag and drop](img/pp2_top_drag_and_drop.png)

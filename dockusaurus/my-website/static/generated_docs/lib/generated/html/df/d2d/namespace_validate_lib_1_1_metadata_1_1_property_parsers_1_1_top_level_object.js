@@ -1,0 +1,8 @@
+var namespace_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object =
+[
+    [ "DialectPropertyParser", "d7/dc5/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_dialect_property_parser.html", "d7/dc5/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_dialect_property_parser" ],
+    [ "NotesPropertyParser", "d9/df2/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_notes_property_parser.html", "d9/df2/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_notes_property_parser" ],
+    [ "TableDirectionPropertyParser", "d9/d58/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_direction_property_parser.html", "d9/d58/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_direction_property_parser" ],
+    [ "TableSchemaPropertyParser", "d6/d55/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_schema_property_parser.html", "d6/d55/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_table_schema_property_parser" ],
+    [ "TransformationsPropertyParser", "d1/d66/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_transformations_property_parser.html", "d1/d66/class_validate_lib_1_1_metadata_1_1_property_parsers_1_1_top_level_object_1_1_transformations_property_parser" ]
+];

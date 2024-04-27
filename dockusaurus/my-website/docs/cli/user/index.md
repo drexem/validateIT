@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # CLI Application - user documentation
 
 We can see all the available options for the command line application using the option `--help`

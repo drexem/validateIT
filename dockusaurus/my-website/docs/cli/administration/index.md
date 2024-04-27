@@ -1,10 +1,13 @@
+---
+sidebar_position: 2
+---
 # CLI Application - administration documentation
 
 Here you will find the information needed for running the CLI version of Validator.
 
 *You have two options*:
 - **[Docker](#docker)**
-- **[.NET Build](#net-build)**
+- **[.NET Build](#build-with-dotnet)**
 
 Don't forget to check out the [user documentation](../user/index.md) of CLI App!
 
@@ -105,17 +108,19 @@ In this example we have a local file `/my/local/path/my.csv` and the validator s
 
 We recommend to map your directories into the directory `/data` in the docker container.
 
-# .NET Build
+## Build with dotnet
 
 
 *This has been tested on [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) 
 and [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).*
 
+*Note that if you use relative paths with the local files, they will be relative to the location of the `ValidateCLI.dll.`*
+
 
 If you prefer to build the CLI app on your own from the source files, we have step-by-step 
 guide for you:
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator).
-2. Relocate to the directory [CSV_Validator](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/CSV_Validator).
+2. Relocate to the directory [ValidateCLI](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/CSV_Validator/ValidateCLI).
 3. To restore the project run:
 ```bash
 dotnet restore
@@ -145,11 +150,11 @@ You can replace the URLs with your local file paths to validate local files!
 Please checkout the [arguments](../user/index.md) 
 documentation for the command line for more info about the usage.
 
-## Alternative
+### Alternative
 
 Alternatively you can follow these steps:
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator).
-2. Relocate to the directory [CSV_Validator](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/CSV_Validator).
+2. Relocate to the directory [ValidateCLI](https://gitlab.mff.cuni.cz/kolcunm/csv-validator/-/tree/master/CSV_Validator/ValidateCLI).
 3. To restore the project run:
 ```bash
 dotnet restore

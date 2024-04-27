@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'validateIT',
   tagline: 'Validate CSV files based on the W3C CSV on the Web recommendations!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/penguin_logo.svg',
 
   // Set the production url of your site here
   url: 'https://drexem.github.io/',
@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'drexem.github.io', // Usually your GitHub org/user name.
+  organizationName: 'drexem', // Usually your GitHub org/user name.
   projectName: 'validateIT', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -40,18 +40,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://gitlab.mff.cuni.cz/kolcunm/csv-validator',
+          sidebarPath: './sidebars.js'
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://gitlab.mff.cuni.cz/kolcunm/csv-validator',
+          showReadingTime: true
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,12 +56,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/penguin_logo.svg',
       navbar: {
         title: 'validateIT',
         logo: {
           alt: 'validateIT logo',
-          src: 'img/logo.svg',
+          src: 'img/penguin_logo.svg',
         },
         items: [
           {
@@ -78,7 +70,6 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://gitlab.mff.cuni.cz/kolcunm/csv-validator',
             label: 'GitLab',
@@ -99,29 +90,33 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Contact',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/kolcunmichal',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/michalkolcun/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/drexem',
               },
+              {
+                label: 'GitLab',
+                href: 'https://gitlab.mff.cuni.cz/kolcunm',
+              },
+              {
+                label: 'Graphic Designer',
+                href: 'https://www.instagram.com/_zuz_m_/',
+              }
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitLab',
                 href: 'https://gitlab.mff.cuni.cz/kolcunm/csv-validator',
@@ -134,6 +129,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['csharp', 'bash']
       },
     }),
 };

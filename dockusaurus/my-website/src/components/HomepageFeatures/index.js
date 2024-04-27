@@ -5,31 +5,35 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/penguin_fire.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        validateIT vas designed for easy and straight-forward use! Just follow
+        the <a href="docs/">documentation</a> and start validating!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '4 Different Validation Interfaces',
+    Svg: require('@site/static/img/penguin_design.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        You can choose from 4 different validation interfaces: <br/>
+        <a href="docs/lib">Library:</a> Integrate Effortlessly,<br/>
+        <a href="docs/cli">CLI App:</a> Command Validation at Your Fingertips, <br/>
+        <a href="docs/web_service">Web Service:</a> Access Validation On-the-Go,<br/>
+        <a href="docs/web_app">Web App:</a> Explore Validation with Ease,
+
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Nuget Package Available',
+    Svg: require('@site/static/img/penguin_laptop.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        For your convenience we have created a <a href="https://www.nuget.org/packages/CSVW-validator-lib" target="_blank"> nugget package</a>
+        you can use in your C# projects!
       </>
     ),
   },

@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Web Service - developer documentation
 
 Here you can find all that you need if you want to continue the development of the Validator library or to 

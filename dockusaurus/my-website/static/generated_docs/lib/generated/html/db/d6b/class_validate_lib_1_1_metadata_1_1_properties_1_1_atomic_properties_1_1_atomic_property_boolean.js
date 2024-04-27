@@ -1,0 +1,4 @@
+var class_validate_lib_1_1_metadata_1_1_properties_1_1_atomic_properties_1_1_atomic_property_boolean =
+[
+    [ "AtomicPropertyBoolean", "db/d6b/class_validate_lib_1_1_metadata_1_1_properties_1_1_atomic_properties_1_1_atomic_property_boolean.html#a2391eaf6dae0141fb71db609a6177ec7", null ]
+];

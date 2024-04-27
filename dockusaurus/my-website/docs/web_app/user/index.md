@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Web App - user documentation
 
 Here we will walk you through some typical usage scenarios and teach you how to use our Web application.
@@ -62,6 +65,17 @@ It contains the following properties:
 - **Rows processed** - how many rows have been processed in this table.
 - **Cells processed** - how many cells have been processed in this table.
 - **Collapsibles of ERRORS and WARNINGS** - under these information you can see collapsibles of errors and warnings grouped by their type. Validator only shows first 15 errors of the same type, all errors can be shown on [another page](#validation-of-remote-csv-file-pp3).
+
+## Use relative paths
+
+If you use local `Overriding` validation you can see a check-box saying: `Use relative paths.`
+![check box](img/check_box.png)
+
+If you check this the validation will not be overriding. The provided local files
+will be transferred to the server and put into one directory.
+There will run classic `Metadata` validation beginning from the metadata file you provided.
+This enables user to use `Metadata` validation even with the Web App form of validator!
+
 
 ## Typical usage scenarios
 

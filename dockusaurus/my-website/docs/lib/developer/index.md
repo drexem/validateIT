@@ -9,7 +9,7 @@ use it more advanced!
 Don't forget to check out the [user documentation](../user/) to get a grasp of what this library is all about!
 
 ## Generated code documentation
-Firstly there is [documentation generated](pathname:///generated_docs/cli/Generated/html/index.html) from the source code where you can find all the classes you will be working
+Firstly there is [documentation generated](pathname:///generated_docs/lib/generated/html/index.html) from the source code where you can find all the classes you will be working
 with.
 
 ## General architecture
@@ -40,7 +40,7 @@ Now we will describe individual sub-namespaces and explain the most important cl
 
 Contains the most important interface `IController` which is entry-point into the validation and manages all other modules and their communication.
 The interface is really documented in the detail so users can use it easily.
-Check out the [generated documentation](https://drexem.github.io/validateIT/docs/lib/developer/generated/html/dd/de8/interface_validate_lib_1_1_control_1_1_i_controller.html).
+Check out the [generated documentation](pathname:///generated_docs/lib/generated/html/index.html).
 
 Also there is `ControllerFactory` class which is used to produce the `IController` instances. We did this so we can change the implementations of `IController` without the users of the library even noticing.
 
