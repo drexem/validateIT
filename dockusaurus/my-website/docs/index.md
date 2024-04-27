@@ -30,3 +30,10 @@ main [gitlab repository](https://gitlab.mff.cuni.cz/kolcunm/csv-validator).
 ## Code Coverage
 
 Also check out the code coverage of [Library](lib/) [here](lib/#code-coverage).
+
+
+## Tests
+
+You can run the integration tests using docker and make sure our implementation passes them!
+
+Check out the tutorial [here](integration_tests/index.md)
